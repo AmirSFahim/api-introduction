@@ -10,7 +10,7 @@ function createPhotoApi(PhotoApi){
         const newPhoto = document.createElement('div');
         newPhoto.classList.add('photo-style');
         newPhoto.innerHTML=`
-        <img src="${photo.url}"  width="100" height="100">
+        <img src="${photo.url}"  width="200" height="100">
         <h3>title: ${photo.title} </h3>
         
         `
